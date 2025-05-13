@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathis Lebel - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="light">
+  <div class="theme-switcher">
+    <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+  </div>
+  
+  <div class="language-switcher">
+    <button id="lang-fr" class="active">FR</button>
+    <button id="lang-en">EN</button>
+  </div>
+
+  <header class="header">
+    <div class="intro">
+      <h1 data-i18n="header.title">Bonjour, je suis <span class="highlight">Mathis Lebel</span></h1>
+      <p data-i18n="header.subtitle">Développeur Full-Stack & Architecte IoT</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/mathis-lebel-429114293/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/mathislebel" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" data-aos="fade-up" class="section">
+    <h2 data-i18n="about.title">À propos de moi</h2>
+    <p data-i18n="about.content">Étudiant en informatique passionné par le développement logiciel et matériel. Je combine des compétences en programmation (C++, Python, Flutter), en électronique (Arduino, FPGA) et en développement web pour créer des solutions innovantes. Mon expérience en alternance et en compétitions entrepreneuriales m'a permis de développer une approche pratique et orientée résultats.</p>
+  </section>
+
+  <section id="education" data-aos="fade-up" class="section">
+    <h2 data-i18n="education.title">Formation</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2025-2026</div>
+        <div class="timeline-content">
+          <h3>ESIEE IT</h3>
+          <p data-i18n="education.item1.degree">Bachelor informatique en alternance</p>
+          <p data-i18n="education.item1.details">Mathematics, Machine learning, Programming and Software Development, Computer Architecture and Systems</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2023-2025</div>
+        <div class="timeline-content">
+          <h3>ALGOSUP</h3>
+          <p data-i18n="education.item2.degree">Architecte Internet des objets</p>
+          <p data-i18n="education.item2.details">Computer Science, Electronics, English, Soft skills</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" data-aos="fade-up" class="section">
+    <h2 data-i18n="experience.title">Expérience Professionnelle</h2>
+    <div class="experience-grid">
+      <div class="experience-card">
+        <div class="experience-header">
+          <h3>UniqMaker</h3>
+          <span class="experience-date">Avril 2025 - Actuellement</span>
+        </div>
+        <p class="experience-role" data-i18n="experience.item1.role">Développement Flutter et React</p>
+        <ul>
+          <li data-i18n="experience.item1.detail1">Développement d'une application mobile et d'un site web sur mesure</li>
+          <li data-i18n="experience.item1.detail2">Respect des délais et exigences techniques clients</li>
+        </ul>
+      </div>
+      <div class="experience-card">
+        <div class="experience-header">
+          <h3>CNES</h3>
+          <span class="experience-date">Février 2025 - Avril 2025</span>
+        </div>
+        <p class="experience-role" data-i18n="experience.item2.role">Développement WEB FPGA</p>
+        <ul>
+          <li data-i18n="experience.item2.detail1">Création d'un site web avec émulateur FPGA</li>
+          <li data-i18n="experience.item2.detail2">Simplification de l'apprentissage de cette technologie</li>
+        </ul>
+      </div>
+      <div class="experience-card">
+        <div class="experience-header">
+          <h3>Sport Shield</h3>
+          <span class="experience-date">Février 2024 - Avril 2024</span>
+        </div>
+        <p class="experience-role" data-i18n="experience.item3.role">Développement Arduino</p>
+        <ul>
+          <li data-i18n="experience.item3.detail1">Optimisation d'un système antivol électronique</li>
+          <li data-i18n="experience.item3.detail2">Recodage pour CORIS INNOVATION</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-left" class="section">
+    <h2 data-i18n="skills.title">Compétences</h2>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3 data-i18n="skills.category1">Langages de programmation</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Verilog</span>
+          <span class="skill-tag">Assembly</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 data-i18n="skills.category2">Développement Mobile & Web</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Flutter</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 data-i18n="skills.category3">Électronique & IoT</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Arduino</span>
+          <span class="skill-tag">FPGA</span>
+          <span class="skill-tag">GDIScripts</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" data-aos="fade-up" class="section">
+    <h2 data-i18n="achievements.title">Réalisations</h2>
+    <div class="achievements-container">
+      <div class="achievement-card">
+        <i class="fas fa-trophy"></i>
+        <h3 data-i18n="achievements.item1.title">Compétitions entrepreneuriales</h3>
+        <p data-i18n="achievements.item1.content">4 participations avec 1ère place sur un projet innovant et 2ème place dans deux autres challenges</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fas fa-users"></i>
+        <h3 data-i18n="achievements.item2.title">Gestion d'équipe</h3>
+        <p data-i18n="achievements.item2.content">Ancien Project Manager pour une équipe de 7 étudiants</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Mathis Lebel. <span data-i18n="footer.rights">Tous droits réservés</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
