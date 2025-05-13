@@ -137,4 +137,4 @@ const translations = {
   
   // Écouter le changement de thème
   themeToggle.addEventListener('click', changeTheme);
-  
+  //finish
